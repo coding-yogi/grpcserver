@@ -1,0 +1,5 @@
+applications:
+  - name: my-grpc-server
+    env:
+      GOVERSION: go1.8
+      GOPACKAGENAME: go18_dep
