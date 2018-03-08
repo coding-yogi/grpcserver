@@ -2,6 +2,7 @@
 
 
 [[projects]]
+  branch = "master"
   name = "github.com/golang/protobuf"
   packages = [
     "proto",
@@ -10,8 +11,7 @@
     "ptypes/duration",
     "ptypes/timestamp"
   ]
-  revision = "925541529c1fa6821df4e44ce2723319eb2be768"
-  version = "v1.0.0"
+  revision = "1e59b77b52bf8e4b449a57e6f79f21226d571845"
 
 [[projects]]
   branch = "master"
@@ -25,9 +25,10 @@
     "lex/httplex",
     "trace"
   ]
-  revision = "d25186b37f34ebdbbea8f488ef055638dfab272d"
+  revision = "434ec0c7fe3742c984919a691b2018a6e9694425"
 
 [[projects]]
+  branch = "master"
   name = "golang.org/x/text"
   packages = [
     "collate",
@@ -45,16 +46,16 @@
     "unicode/norm",
     "unicode/rangetable"
   ]
-  revision = "f21a4dfb5e38f5895301dc265a8def02365cc3d0"
-  version = "v0.3.0"
+  revision = "e19ae1496984b1c655b8044a65c0300a3c878dd3"
 
 [[projects]]
   branch = "master"
   name = "google.golang.org/genproto"
   packages = ["googleapis/rpc/status"]
-  revision = "df60624c1e9b9d2973e889c7a1cff73155da81c4"
+  revision = "a8101f21cf983e773d0c1133ebc5424792003214"
 
 [[projects]]
+  branch = "master"
   name = "google.golang.org/grpc"
   packages = [
     ".",
@@ -65,7 +66,6 @@
     "connectivity",
     "credentials",
     "encoding",
-    "encoding/proto",
     "grpclb/grpc_lb_v1/messages",
     "grpclog",
     "internal",
@@ -81,12 +81,11 @@
     "tap",
     "transport"
   ]
-  revision = "8e4536a86ab602859c20df5ebfd0bd4228d08655"
-  version = "v1.10.0"
+  revision = "6913ad5caedced5d627918609375b057963334a5"
 
 [solve-meta]
   analyzer-name = "dep"
   analyzer-version = 1
-  inputs-digest = "57ad4fba0d02bc57ad1d38989a6734e52b8a666520b387355267d0459dc15fd1"
+  inputs-digest = "06cde574c8e6043909b054c60b547269b7e06c940b56cb3771e1742e97946cb0"
   solver-name = "gps-cdcl"
   solver-version = 1

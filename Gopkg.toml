@@ -26,16 +26,16 @@
 
 
 [[constraint]]
+  branch = "master"
   name = "github.com/golang/protobuf"
-  version = "1.0.0"
 
 [[constraint]]
   branch = "master"
   name = "golang.org/x/net"
 
 [[constraint]]
+  branch = "master"
   name = "google.golang.org/grpc"
-  version = "1.10.0"
 
 [prune]
   go-tests = true

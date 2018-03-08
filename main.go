@@ -7,7 +7,7 @@ import (
 	"net"
 	"time"
 
-	pb "github.com/coding-yogi/grpcserver/protobuffers"
+	pb "github.com/coding-yogi/grpcserver/employee"
 	"golang.org/x/net/context"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/metadata"
